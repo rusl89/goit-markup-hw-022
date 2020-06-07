@@ -1,0 +1,232 @@
+/* Стили для index.html */
+
+/*  цвет основного текста #212121
+второй цыет текста #757575
+белый цвет текста #FFFFFF
+синий цвет в лого и при ховере (акцент) #2196F3
+
+/* background main #FFFFFF */
+/* backround seconday #F5F4FA */
+:root {
+    --primary-text-color:#757575;
+    --title-text-color:#212121;
+    --accent:#2196F3;
+    --white:#FFFFFF;
+
+}
+
+body {
+    background-color: var(--white);
+    color: var(--primary-text-color);
+
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+}
+
+ul {
+    list-style: none;
+}
+/* Logo */
+
+.logo {
+    color: #000000;
+    font-family: Raleway, sans-serif;
+    font-weight: 700 ;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.logo span {
+    color: var(--accent);
+}
+
+/* site nav */
+
+.site-nav .link {
+    color: var(--title-text-color);
+ 
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: var(--accent);
+}
+
+.site-nav .link.current {
+    color: var(--accent);
+}
+
+.contacts-list .link {
+    text-decoration: none;
+    color: var(--primary-text-color);
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.contacts-list .link:hover, 
+.contacts-list .link:focus {
+    color: var(--accent);
+}
+
+/* main */
+
+/* Hero */
+
+.hero-title {
+    color: var(--white);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-align: center;
+    
+}
+
+/* Sections */
+
+.section-title {
+    color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+/* Feature list */
+
+.feature-list .title {
+    color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.feature-list .text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/*  Service list */
+
+.service-list .title {
+    color: var(--white);
+    
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Team list */
+
+.team-list .title {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+}
+
+.team-list .text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+}
+
+/* Footer */
+
+/* address */
+.address {
+    color: var(--white);
+}
+.address .link {
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
+
+.social-media .title {
+    color: var(--white);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+
+}
+
+.social-list a:hover {
+    color: var(--accent);
+}
+
+
+.copyright {
+    color: rgba(255, 255, 255, 0.4);
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+    text-align: center;
+}
+
+/* Button */
+
+.button {
+    color: var(--white);
+    background-color: var(--accent);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+}
+
+/* Стили для портфолио */
+
+.button-port {
+    color: var(--title-text-color);
+    background-color: #F5F4FA;
+}
+
+.button-port:hover, 
+.button-port:focus {
+    color: var(--white);
+    background-color: var(--accent);
+}
+
+.works-list a {
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
+
+.works-list .title {
+    color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.works-list .text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+}
+
+.works-list .description {
+    color: var(--white);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.55;
+}
